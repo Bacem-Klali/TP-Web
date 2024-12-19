@@ -1,0 +1,37 @@
+body{margin: 0;
+    padding: 0;
+     font-family: 'Courier New', Courier, monospace;
+    }
+.galerie img{
+    width: 100%;
+    max-width: calc(25% - 16px);
+    border: 4px solid transparent;
+    transition: transform 0.3s ease, boreder 0.3s ease; box-shadow: 2px;
+}
+
+.galerie{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px;
+    justify-content: center;
+}
+
+.galerie img:hover{
+    transform: scale(1.1);
+    border-color: greenyellow;
+
+}
+
+
+@media (max-width:768px){
+    .galerie img{
+        max-width: calc(50% - 16px);
+    }
+}
+
+@media (max-width:480px){
+    .galerie img{
+        max-width: calc(100% - 16px);
+    }
+}

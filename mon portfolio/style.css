@@ -1,0 +1,144 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #2c2c2c;
+    line-height: 1.6;
+}
+
+header {
+    width: 100%;
+    height: 120px;
+    background-color: #a2d5f2;
+    text-align: center;
+    color: #2b3a42;
+    padding: 40px 0;
+    transition: background-color 0.5s;
+}
+
+header:hover {
+    background-color: #87ceeb; 
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+nav {
+    background-color: #4682b4;
+    padding: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    background-color: #2f4f4f;
+    border-radius: 3px;
+    transition: background-color 0.3s, transform 0.3s;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #66cdaa;
+    transform: scale(1.1);
+}
+
+section {
+    text-align: center;
+    background-color: #e6ffe6;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+h2 {
+    color: #8b0000;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+h2:after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #8b0000;
+    margin: 8px auto;
+}
+
+p:hover {
+    color: #8b0000;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #e0eeee;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    color: #333;
+}
+
+footer a {
+    text-decoration: none;
+    color: #8b0000;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #b22222;
+}
+
+article {
+    background-color: #fdf5e6;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+article h3 {
+    color: #dc143c; 
+}
+
+article:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
